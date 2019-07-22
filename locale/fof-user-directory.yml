@@ -1,0 +1,25 @@
+fof-user-directory:
+    forum:
+        search:
+            users_heading: 'Buscar membros por "{query}"'
+        page:
+            nav: Lista de Membros
+            sort:
+                relevance: Relevância
+                default: Padrão
+                username_az: Usuário (a-z)
+                username_za: Usuário (z-a)
+                newest: Mais Recente
+                oldest: Mais Antigo
+                seen_recent: Online recentemente
+                seen_oldest: Offline por mais tempo
+                most_posts: Mais posts
+                least_posts: Menos posts
+                most_discussions: Mais discussões
+                least_discussions: Menos discussões
+    admin:
+        permissions:
+            view_user_directory: Ver lista de membros
+        settings:
+            title: User Directory Settings
+            link: Add link on homepage for users able to see the directory

@@ -20,4 +20,4 @@ flarum-pusher:
 
     # These translations are used in the discussion list.
     discussion_list:
-      show_updates_text: "{count} discussão foi atualizada|{count} discussões foram atualizadas"
+      show_updates_text: "Algumas discussões ({count}) foram respondidas! Clique aqui para atualizar!|Algumas discussões ({count}) foram respondidas! Clique aqui para atualizar!"

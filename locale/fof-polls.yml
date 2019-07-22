@@ -1,0 +1,44 @@
+fof-polls:
+  admin:
+    permissions:
+      moderate: Editar e apagar enquetes
+      self_edit: Permitir que usuários alterem suas enquetes
+      start: Iniciar uma enquete
+      vote: Votar nas enquetes
+
+  forum:
+    days_remaining: Enquete termina {time}.
+    no_permission: Você não tem permissão para votar
+    poll_ended: Esta enquete está finalizada.
+    public_poll: Ver participantes
+
+    composer_discussion:
+      add_poll: Adicionar Enquete
+      edit_poll: => fof-polls.forum.moderation.edit
+
+    modal:
+      add_title: Adicionar Enquete
+      add_option_label: Adicionar uma Opção
+      date_placeholder: Data e Hora de encerramento (Opcional)
+      edit_title: Editar Enquete
+      include_question: Você deve especificar uma pergunta
+      max: Você pode cadastrar no máximo 10 respostas
+      min: Você deve incluir no mínimo 2 respostas
+      no_voters: Sem Votos
+      option_placeholder: Resposta
+      options_label: Respostas
+      public_poll_label: Permitir que os usuários vejam quem e como votou cada participante
+      question_placeholder: Pergunta
+      submit: Salvar Enquete
+
+    moderation:
+      delete: Apagar Enquete
+      delete_confirm: Tem certeza que deseja apagar esta enquete?
+      edit: Editar Enquete
+
+    tooltip:
+      badge: Enquete
+      votes: "1 voto|{count} votos"
+
+    votes_modal:
+      title: Votação

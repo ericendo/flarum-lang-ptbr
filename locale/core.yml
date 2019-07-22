@@ -214,7 +214,7 @@ core:
 
     # These translations are used by the composer controls.
     composer:
-      close_tooltip: Fechado
+      close_tooltip: Fechar
       exit_full_screen_tooltip: Sair do modo tela cheia
       full_screen_tooltip: Tela cheia
       minimize_tooltip: Minimizar
@@ -264,13 +264,13 @@ core:
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
-      activate_button: Usuários Ativos
+      activate_button: Ativar este Usuário
       email_heading: => core.ref.email
       email_label: => core.ref.email
       groups_heading: Grupos
       password_heading: => core.ref.password
-      password_label: => core.ref.password
-      set_password_label: Set new password
+      password_label: => Nova senha
+      set_password_label: Modificar senha
       submit_button: => core.ref.save_changes
       title: Editar Usuário
       username_heading: => core.ref.username
@@ -300,7 +300,7 @@ core:
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: Can't Start Discussion
+      cannot_start_discussion_button: Discussões bloqueadas!
       mark_all_as_read_confirmation: "Tem certeza que deseja marcar todas as discussões como lidas?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       refresh_tooltip: Atualizar
@@ -316,10 +316,10 @@ core:
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      forgot_password_link: "Esqueceu a senha?"
+      forgot_password_link: "Esqueceu sua senha?"
       invalid_login_message: Suas credenciais estão incorretas.
       password_placeholder: => core.ref.password
-      remember_me_label: Lembre-me
+      remember_me_label: Lembrar-me
       sign_up_text: "Não tem uma conta? <a>Cadastre-se</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
@@ -403,7 +403,7 @@ core:
       avatar_upload_tooltip: Trocar foto de perfil
       discussions_link: => core.ref.discussions
       in_discussion_text: "Em {discussion}"
-      joined_date_text: "Ingressou {ago}"
+      joined_date_text: "Ingressou no grupo: {ago}"
       online_text: Online
       posts_empty_text: Nenhum post foi encontrado...
       posts_link: => core.ref.posts
@@ -497,7 +497,7 @@ core:
 
   # Translations in this namespace are used in messages output by the API.
   api:
-    invalid_username_message: "O nome de usuário pode conter apenas letras, números e hífem."
+    invalid_username_message: "O nome de usuário deve conter apenas letras, números e hífem. Não utilize acentuação nem caracteres especiais. Ex: JoaoDaSilva ou Joao-Silva"
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
@@ -581,7 +581,7 @@ core:
     restore: Restaurar
     save_changes: Salvar Alterações                   # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: Configurações
-    sign_up: Cadastrar
+    sign_up: Cadastre-se
     some_others: "{count} outro|{count} outros"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: Inicie uma Discussão!
     username: Usuário
@@ -602,4 +602,4 @@ core:
     member: Membro
     members: Membros
     mod: Moderador
-    mods: Moderadoes
+    mods: Moderadores
